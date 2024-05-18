@@ -1,0 +1,13 @@
+{
+  // Extend the base TypeScript configuration for React Native
+  "extends": "@tsconfig/react-native/tsconfig.json",
+
+  // Override or add compiler options here
+  "compilerOptions": {
+    // Other compiler options...
+  },
+  
+  // Include or exclude specific files or directories
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.tsx", "src/**/*.jsx"],
+  "exclude": ["node_modules", "build"]
+}
